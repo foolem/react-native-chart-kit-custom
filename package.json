@@ -1,44 +1,72 @@
 {
-  "name": "react-native-chart-kit",
-  "version": "2.0.1",
-  "devDependencies": {
-    "babel-eslint": "^8.2.5",
-    "eslint-config-xo-react": "^0.17.0",
-    "eslint-plugin-react": "^7.10.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
-    "expo": "32.0.1",
-    "react": "16.5.0",
-    "jest-expo": "28.0.0",
-    "prop-types": "^15.6.2",
-    "react-native-scrollable-tab-view": "^0.10.0",
-    "react-test-renderer": "16.7.0",
-    "xo": "^0.21.1",
-    "babel-polyfill": "^6.26.0"
-  },
+  "_args": [
+    [
+      "react-native-chart-kit@https://github.com/foolem/react-native-chart-kit-custom/tarball/master",
+      "/home/petbooking/engaged"
+    ]
+  ],
+  "_from": "react-native-chart-kit@https://github.com/foolem/react-native-chart-kit-custom/tarball/master",
+  "_id": "react-native-chart-kit@https://github.com/foolem/react-native-chart-kit-custom/tarball/master",
+  "_inBundle": false,
+  "_integrity": "sha512-nocyN4cWENkEoEGO99NTLLk2QLubFNBKga9COfQU4aqU7D0GJJ2Hykvopxeddx7JrRJ2qScvjXGTTS/roqLGoA==",
+  "_location": "/react-native-chart-kit",
   "_main": "./node_modules/expo/AppEntry.js",
-  "main": "./index.js",
-  "scripts": {
-    "start": "expo start",
-    "eject": "expo eject",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "test": "jest"
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "react-native-chart-kit@https://github.com/foolem/react-native-chart-kit-custom/tarball/master",
+    "name": "react-native-chart-kit",
+    "escapedName": "react-native-chart-kit",
+    "rawSpec": "https://github.com/foolem/react-native-chart-kit-custom/tarball/master",
+    "saveSpec": "https://github.com/foolem/react-native-chart-kit-custom/tarball/master",
+    "fetchSpec": "https://github.com/foolem/react-native-chart-kit-custom/tarball/master"
   },
-  "jest": {
-    "preset": "jest-expo"
-  },
-  "peerDependencies": {
-    "prop-types": "> 15.6.0",
-    "react": "> 16.7.0",
-    "react-native": ">= 0.50.0",
-    "react-native-svg": "> 6.4.1"
-  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": false,
+  "_spec": "https://github.com/foolem/react-native-chart-kit-custom/tarball/master",
+  "_where": "/home/petbooking/engaged",
   "dependencies": {
     "babel-plugin-module-resolver": "^3.1.1",
     "lodash": "^4.17.11",
     "paths-js": "^0.4.7",
     "point-in-polygon": "^1.0.1"
   },
+  "description": "If you're looking to **build a website or a cross-platform mobile app** – we will be happy to help you! Send a note to clients@ui1.io and we will be in touch with you shortly.",
+  "devDependencies": {
+    "babel-eslint": "^8.2.5",
+    "babel-polyfill": "^6.26.0",
+    "eslint-config-xo-react": "^0.17.0",
+    "eslint-plugin-react": "^7.10.0",
+    "expo": "32.0.1",
+    "jest-expo": "28.0.0",
+    "prop-types": "^15.6.2",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-scrollable-tab-view": "^0.10.0",
+    "react-test-renderer": "16.7.0",
+    "xo": "^0.21.1"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "main": "./index.js",
+  "name": "react-native-chart-kit",
+  "peerDependencies": {
+    "prop-types": "> 15.6.0",
+    "react": "> 16.7.0",
+    "react-native": ">= 0.50.0",
+    "react-native-svg": "> 6.4.1"
+  },
+  "scripts": {
+    "android": "expo start --android",
+    "eject": "expo eject",
+    "ios": "expo start --ios",
+    "start": "expo start",
+    "test": "jest"
+  },
+  "version": "2.0.1",
   "xo": {
     "extends": "xo-react",
     "parser": "babel-eslint",
